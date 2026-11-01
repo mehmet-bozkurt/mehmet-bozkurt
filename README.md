@@ -1,5 +1,9 @@
 # Mehmet Bozkurt
 
+[English](#english) · [Türkçe](#turkce)
+
+<a id="english"></a>
+
 **Software Architect · Technical Lead · Full-Stack Developer**
 
 I design software systems, build developer tools, and explore practical ways to use AI in engineering.
@@ -61,3 +65,75 @@ I start with the problem, the data relationships, and the constraints. I care ab
 When working with AI, I focus on preserving useful context and checking the resulting software. Tests, working outputs, execution time, and cost help me decide which approaches are useful in practice.
 
 Outside web development, I’m interested in game development, 3D printing, and robotics prototyping.
+
+---
+
+<a id="turkce"></a>
+
+## Türkçe
+
+[English ↑](#english)
+
+**Yazılım Mimarı · Teknik Lider · Full-Stack Geliştirici**
+
+Yazılım sistemleri tasarlıyor, geliştirici araçları üretiyor ve yapay zekânın yazılım mühendisliğindeki pratik kullanım alanlarını araştırıyorum.
+
+Geçmişim backend geliştirme, yazılım mimarisi, teknik liderlik ve uçtan uca web uygulaması geliştirmeyi kapsıyor. Çalışmalarımın merkezinde PHP ve Laravel; frontend tarafında ise modern JavaScript araçları yer alıyor.
+
+Bugün bu deneyimi AI destekli geliştirmeye taşıyorum: kodlama modellerini gerçek görevlerle karşılaştırıyor, doğrulama süreçleri geliştiriyor ve yerel dil modellerinin donanım ve maliyet açısından getirdiği tercihleri inceliyorum.
+
+## Öne çıkan çalışmalar
+
+### [BenchForge](https://github.com/mehmet-bozkurt/BenchForge)
+
+**Kodlama modellerini karşılaştır. Sonuçları incele.**
+
+AI kodlama modellerini OpenCode üzerinden aynı görev ve başlangıç projesiyle çalıştıran, yerel bir değerlendirme ortamı. Otomatik kontrolleri, çalışma süresini, token kullanımını, maliyeti ve insan değerlendirmesini tek bir karşılaştırma sürecinde bir araya getiriyor.
+
+- Üretilen çıktıları lint, production build, statik dışa aktarma, rota kontrolleri ve tarayıcı çalışma testleriyle doğrular.
+- Her model için ayrı çalışma alanları tutar ve çıktıları yan yana incelemeyi sağlar.
+- Başarısız çalışmaları yeniden denemeye ve incelemeye imkân verirken ilk teslimin sonuçlarını korur.
+
+`Laravel` · `SQLite` · `Node.js` · `OpenCode` · `Playwright`
+
+*Erken aşamada, tek kullanıcılı ve yerel kullanım için geliştirilen bir araç. Sonuçlar, denenen görevler ve çalışma koşullarıyla sınırlıdır.*
+
+### [Türkiye Yerel LLM Rehberi](https://github.com/mehmet-bozkurt/turkiye-local-llm-rehberi)
+
+**Yapay zekâyı yerelde çalıştırmak için neler gerektiğini keşfet.**
+
+Model gereksinimlerini, donanım kapasitesini, model çalıştırma araçlarını ve yerel/bulut maliyetlerini karşılaştıran etkileşimli bir araştırma uygulaması. Dil modellerini kişisel donanımlarda çalıştırmanın pratik yönlerine ilişkin araştırmalarımdan doğdu.
+
+- Farklı kullanım senaryolarında bellek gereksinimlerini ve donanım seçeneklerini inceler.
+- Model çalıştırma araçlarını ve kurulum tercihlerini karşılaştırır.
+- Etkileşimli maliyet tahminleri, fizibilite görünümleri ve bir karar rehberi sunar.
+
+`React` · `TypeScript` · `Vite` · `Tailwind CSS` · `Recharts`
+
+*Türkçe içerikli bir araştırma aracı. Veriler ve tahminler yaklaşıktır; resmî benchmark sonuçları değildir.*
+
+## Odaklandığım alanlar
+
+- **Mimari ve backend:** uygulama sınırları, ilişkisel veri modelleri, API'ler, yetkilendirme ve bakımı kolay iş uygulamaları.
+- **Uçtan uca geliştirme:** backend servislerini, kullanıcı arayüzlerini ve operasyonel ihtiyaçları birlikte ele alma.
+- **Geliştirici araçları:** tekrarlanan işleri otomatikleştirme ve geliştirme sonuçlarını daha kolay incelenebilir hale getirme.
+- **AI destekli mühendislik:** ajan bağlamı, tekrarlanabilir iş akışları, çıktı doğrulama ve model değerlendirme.
+
+## Kullandığım araçlar
+
+| Alan | Teknolojiler |
+| --- | --- |
+| Backend ve veri | PHP, Laravel, CodeIgniter, MySQL, MariaDB, Redis |
+| Frontend | JavaScript, TypeScript, Vue.js, React, Next.js, Tailwind CSS |
+| Altyapı | Linux, Nginx, Docker, Cloudflare, Git, CI/CD |
+| AI iş akışları ve denemeler | OpenCode, Claude Code, Cursor, OpenRouter, MCP, Playwright |
+
+## Çalışmaya yaklaşımım
+
+İşe problemi, veri ilişkilerini ve kısıtları anlamakla başlıyorum. Bir sistemin nasıl geliştirileceği kadar nasıl test edileceğini, bakımının yapılacağını ve işletileceğini de önemsiyorum.
+
+Yapay zekâyla çalışırken yararlı bağlamı korumaya ve ortaya çıkan yazılımı doğrulamaya odaklanıyorum. Testler, çalışan çıktılar, süre ve maliyet; hangi yaklaşımların pratikte işe yaradığını değerlendirmeme yardımcı oluyor.
+
+Web geliştirmenin dışında oyun geliştirme, 3D baskı ve robotik prototiplemeyle ilgileniyorum.
+
+[Başa dön ↑](#mehmet-bozkurt)
